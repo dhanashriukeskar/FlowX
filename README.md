@@ -3,20 +3,28 @@
 **Cross-border payment liquidity optimization platform** for the India ↔ UAE corridor.
 
 ## Problem
-Cross-border payments tie up capital in pre-funded accounts and suffer from delays and inefficient liquidity allocation. [Add 1-2 lines on the exact problem your team is solving.]
+Cross-border payment providers keep money pre-funded in accounts on both sides of a corridor. Too much idle balance ties up capital, while too little causes failed or delayed payments. Managing these balances across currencies (INR and AED) is usually done manually or with static rules, which leads to inefficient liquidity allocation and higher costs.
 
 ## Our Solution
-FlowX helps optimize liquidity for cross-border payments, starting with the India ↔ UAE corridor. [Add 2-3 lines on how it works and what it delivers.]
+FlowX helps optimize liquidity for cross-border payments, starting with the India ↔ UAE corridor. It analyzes payment flows in both directions, forecasts liquidity needs, and scores routes to recommend how funds should be allocated so payments settle smoothly while idle capital stays low. A dashboard presents these insights visually.
 
 ## Key Features
-- [Feature 1]
-- [Feature 2]
-- [Feature 3]
+- **Liquidity Forecasting:** predicts upcoming liquidity requirements on the corridor
+- **Two-Way Flow Analysis:** analyzes payment flows in both directions (India → UAE and UAE → India)
+- **Route Scoring:** ranks payment routes to support better allocation decisions
+- **Interactive Dashboard:** charts and visual insights built with Chart.js
+- **REST API:** FastAPI backend serving forecasts, scores and analytics
 
 ## Tech Stack
-- **Frontend:** [add]
-- **Backend:** [add]
-- **ML:** [add]
+| Layer | Technologies |
+|---|---|
+| Frontend | React.js, JavaScript, HTML/CSS, Chart.js |
+| Backend | Python, FastAPI, REST APIs |
+| Data & Analytics | Pandas, NumPy, Scikit-learn |
+| Database | MySQL |
+| Decision Engine | Liquidity Forecasting, Two-Way Flow Analysis, Route Scoring |
+| Dev & Version Control | Git, GitHub, VS Code |
+| Data | Synthetic / Sandbox Data |
 
 ## Project Structure
 ```
@@ -29,12 +37,6 @@ FlowX/
 └── scripts/    # helper scripts
 ```
 
-## Getting Started
-[Add setup and run instructions once the code is in place.]
-
 ## Team
-- [Name 1]
-- [Name 2]
-
-## Hackathon
-[Hackathon name and date]
+- Mansvi Mor
+- Dhanashri Keskar
